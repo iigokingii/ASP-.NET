@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "2+M8jE4T9Qkb04QxsDU/GYBdryg5X3WgZeu1jKS9QnU=",
+  "Source": "FirstAppAsp",
+  "BasePath": "_content/FirstAppAsp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "FirstAppAsp\\wwwroot",
+      "Source": "FirstAppAsp",
+      "ContentRoot": "D:\\asp\\FirstAppAspCore\\FirstAppAsp\\wwwroot\\",
+      "BasePath": "_content/FirstAppAsp",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\asp\\FirstAppAspCore\\FirstAppAsp\\wwwroot\\index.html",
+      "SourceId": "FirstAppAsp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\asp\\FirstAppAspCore\\FirstAppAsp\\wwwroot\\",
+      "BasePath": "_content/FirstAppAsp",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ]
+}
