@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>testTask</title>
+    <link href="/css/style.css?v=2" rel="stylesheet"/>
+</head>
+<body>
+    <div>
+        @*Таблица с данными*@
+        <table class="list">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>MobilePhone</th>
+                    <th>JobTitle</th>
+                    <th>BirthDate</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+
+        <div style="margin-left:20px;">
+            <a href="#"  class="open-popup">Add Contact...</a>
+        </div>
+
+        @*ПопАп Страница*@
+        <div class="popup_bg"> 
+            <form class="popup" id="PopUpForm">
+                <img src="/Images/close.svg" class="close-popup" />
+                <label>
+                    <input type="hidden" id="id" />
+                    <div class="label_text">
+  
+                    </div>
+                </label>
+                <label>
+                    <input type="text" id="name" />
+                    <div class="label_text">
+                        Name:
+                    </div>
+                </label>
+                <label>
+                    <input type="text" id="mobilePhone" />
+                    <div class="label_text">
+                        MobilePhone:
+                    </div>
+                </label>
+                <label>
+                    <input type="text" id="jobTitle" />
+                    <div class="label_text">
+                        JobTitle:
+                    </div>
+                </label>
+                <label>
+                    <input type="date" id="birthDate" min="1920-01-01" max="2008-01-01" />
+                    <div class="label_text">
+                        BirthDate:
+                    </div>
+                </label>
+                <label id="displayError" style="color:red"></label>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+        <script src="/js/SendDataToServer.js?v=5"></script>
+        <script src="/js/Contacts.js?v=5"></script>
+        <script src="/js/PopUp.js?v=5"></script>
+        
+    </div>
+</body>
+</html>
